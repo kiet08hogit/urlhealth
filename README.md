@@ -71,6 +71,3 @@ npm test
 - Jest
 - Supertest
 
-## License
-
-ISC
