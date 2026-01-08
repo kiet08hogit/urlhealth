@@ -28,8 +28,6 @@ jobs:
       - name: Build Docker image
         run: docker build -t url-health-check .
 
-
-
       - name: Login to Docker Hub
         run: |
           echo "${{ secrets.DOCKER_PASSWORD }}" | docker login \
